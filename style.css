@@ -127,14 +127,14 @@ button::before {
     height: 50px;
     left: -30px;
     top: 0;
-    opacity: 0.5s;
+    opacity: 0.5;
     filter: blur(30px);
     -webkit-filter: blur(30px);
-    transform: translateX(-130px) scaleX(-15deg);
-    -webkit-transform: translateX(-130px) scaleX(-15deg);
-    -moz-transform: translateX(-130px) scaleX(-15deg);
-    -ms-transform: translateX(-130px) scaleX(-15deg);
-    -o-transform: translateX(-130px) scaleX(-15deg);
+    transform: translateX(-130px) skewX(-15deg);
+    -webkit-transform: translateX(-130px) skewX(-15deg);
+    -moz-transform: translateX(-130px) skewX(-15deg);
+    -ms-transform: translateX(-130px) skewX(-15deg);
+    -o-transform: translateX(-130px) skewX(-15deg);
 }
 button::after {
     content: '';
@@ -148,11 +148,11 @@ button::after {
     opacity: 0;
     filter: blur(30px);
     -webkit-filter: blur(30px);
-    transform: translate(-100px) scaleX(-15deg);
-    -webkit-transform: translate(-100px) scaleX(-15deg);
-    -moz-transform: translate(-100px) scaleX(-15deg);
-    -ms-transform: translate(-100px) scaleX(-15deg);
-    -o-transform: translate(-100px) scaleX(-15deg);
+    transform: translate(-100px) skewX(-15deg);
+    -webkit-transform: translate(-100px) skewX(-15deg);
+    -moz-transform: translate(-100px) skewX(-15deg);
+    -ms-transform: translate(-100px) skewX(-15deg);
+    -o-transform: translate(-100px) skewX(-15deg);
 }
 button:hover {
     cursor: pointer;
