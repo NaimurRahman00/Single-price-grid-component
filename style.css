@@ -207,9 +207,12 @@ button:hover::after {
 }
 
 /* Footer */
+
 footer {
     position: absolute;
     bottom: 10px;
+    animation: frombottom 5s;
+    -webkit-animation: frombottom 5s;
 }
 .attribution { 
     font-size: 11px; 
@@ -244,6 +247,12 @@ footer {
         margin-top: -475px;
     }
 }
+@keyframes frombottom {
+    from {
+        bottom: -20px;
+        opacity: 0;
+    }
+}
 
 /* Responsive part */
 
@@ -261,6 +270,4 @@ footer {
     main>:last-child {
         flex-direction: column;
     }
-    footer {
-        display: none;
 }
