@@ -208,7 +208,6 @@ button:hover::after {
 
 /* Footer */
 footer {
-    display: none;
     position: absolute;
     bottom: 10px;
 }
@@ -262,4 +261,6 @@ footer {
     main>:last-child {
         flex-direction: column;
     }
+    footer {
+        display: none;
 }
