@@ -270,4 +270,7 @@ footer {
     main>:last-child {
         flex-direction: column;
     }
+    footer {
+        display: none;
+    } 
 }
